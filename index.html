@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vigilant Transportation</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Your custom CSS -->
+    <style>
+        body {
+        padding-top: 56px; /* Height of the navbar */
+        }
+        :root {
+            --bs-primary: #506c81;
+        }
+        .btn-primary {
+            background-color: #506c81;
+            border-color: #506c81;
+        }
+        .navbar {
+            background-color: var(--bs-primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 999;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff;
+            margin: auto;
+        }
+        .hero-section {
+            
+            padding: 40px 20px 20px;
+            background-color: #f8f9fa;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        #about {
+        overflow: hidden;
+    }
+    .about-content {
+        display: flex;
+        align-items: center;
+    }
+    .about-img {
+        max-width: 40%;
+        height: auto;
+        margin-right: 5%;
+    }
+    .about-text {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    @media (max-width: 768px) {
+        .about-content {
+            flex-direction: column;
+        }
+        .about-img {
+            max-width: 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <span class="navbar-brand">Vigilant Transportation</span>
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h1>Box Truck Delivery Services<br />Memphis, TN.</h1>
+                        <p>Vigilant Transportation is the choice for box truck deliveries in Memphis, TN.</p>
+                        <button class="btn btn-primary">Call Now</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/box-truck-delivery-guarded-by-vigilant-knight.jpg" alt="vigilant knight" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Vigilant Transportation. “Always Watching. Always Delivering.”
+            </h2>
+            <div class="about-content">
+                <img src="img/vigilant-knight-about.jpg" alt="About Vigilant Transportation" class="about-img">
+                <div class="about-text">
+                <p>Hey there! We're Vigilant Transportation, your go-to box truck delivery service right here in Memphis, TN. We're not about fancy slogans or big promises – we're just a team of hard-working folks who take pride in getting your stuff where it needs to go, safely and on time.</p>
+                 <p>Our story? Pretty simple. We started as a local guy with a truck and a dream. Now, we've grown into a trusted name in Memphis and beyond. But don't worry, we haven't let it go to our heads. We still treat every package like it's our own and every customer like a neighbor.</p>
+                <p>What sets us apart? We believe in honest work, clear communication, and going the extra mile (sometimes literally). Whether you're a big business or just need to move a couch, we've got your back. No fuss, no hidden fees – just reliable service you can count on.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Box Truck Delivery Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hot Shots</h5>
+                            <p class="card-text">Fast and reliable deliveries within Memphis and surrounding areas. Perfect for businesses needing same-day service. Not so fast? We can do that too.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Routes</h5>
+                            <p class="card-text">We handle a variety of routes, from contrution products to plastics. Hire Vigilant and you won't have to worry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">White Glove Service</h5>
+                            <p class="card-text">Specialized service for transporting furniture and delicate items. Our experienced team ensures your valuables arrive safely.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">How It Works</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h4>1. Request a Quote</h4>
+                    <p>Contact us with your delivery details for a quick and accurate quote.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>2. Schedule Pickup</h4>
+                    <p>We'll arrange a convenient pickup time that fits your schedule.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4>3. Secure Delivery</h4>
+                    <p>Your items are safely transported and delivered to the specified destination.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Pricing</h2>
+            <p class="text-center">Our pricing is competitive and transparent. We offer customized quotes based on your specific needs. Contact us today for a free estimate on your delivery requirements.</p>
+            <div class="text-center mt-4">
+                <button class="btn btn-primary">Get a Quote</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Contact Information</h4>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@vigilanttransportation.com</p>
+                    <p>Address: 123 Main St, Memphis, TN 38103</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Vigilant Transportation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
